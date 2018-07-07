@@ -1,0 +1,158 @@
+/* Stylesheet by Vlad Sliusar, 2018 */
+#map {
+    height: 600px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sequence-control-container {
+    width: 230px;
+    height: 15px;
+    background-color: rgba(255,255,255,1);
+    padding: 4px 5px 17px 5px;
+    line-height: 35px;
+
+    text-align: center;
+    border: solid #B6BDBE 1.5px;
+    border-radius: 4px;
+    margin-top: 13px
+}
+.range-slider {
+    width: 58%;
+}
+
+#forward {
+    float: right;
+    border-radius: 4px;
+}
+
+#reverse {
+    float: left;
+    border-radius: 4px;
+}
+
+.skip{
+  background-color: white;
+}
+
+.leaflet-popup-content p{
+  margin: 0.2em 0;
+}
+
+.legend-control-container {
+    width: 200px;
+    height: 90px;
+    background-color: rgba(255,255,255,1);
+    padding: 10px 10px 10px 10px;
+    line-height: 20px;
+    text-align: center;
+    border: solid #B6BDBE 1.5px;
+    border-radius: 4px;
+}
+
+#attribute-legend{
+  font-size: 13.5px;
+  color: #000;
+  font-family: lato;
+}
+
+#temporal-legend{
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #000;
+  font-family: lato;
+}
+
+
+p {
+  margin-top:3px;
+  margin-bottom:20px;
+  font-size: 17px;
+  color: #2e2e2e;
+  font-family: lato;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-family: lato;
+}
+
+h6 {
+  color: #808080;
+  font-family: lato;
+  font-size: 13px;
+  font-weight: normal;
+
+}
+
+#create{
+  font-style: italic;
+}
+
+.year-control-container {
+    width: 0px;
+    height: 0px;
+    background-color: rgba(46,46,46,1);
+    /*padding: 1px 17px 2px 1px;*/
+
+    line-height: 10px;
+    border: solid #B6BDBE 0px;
+    border-radius: 4px;
+}
+
+#year-count{
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.leaflet-control-layers.leaflet-control{
+  border: solid #B6BDBE 1.5px;
+  border-radius: 4px;
+}
+
+.leaflet-control-zoomhome.leaflet-bar.leaflet-control{
+  border: solid #B6BDBE 1.5px;
+  border-radius: 4px;
+}
+
+#IconStyleOne{
+  color: #000
+}
+
+
+.circle {
+  transition: stroke-width 0.2s;
+}
+
+.container{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*border line*/
+hr {
+  border-color: #EEEEEE;
+  border-width: 1px;
+}
+
+p2{
+  color: #808080;
+  font-family:lato;
+}
+
+/*rights reserved*/
+#footer{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: px;
+    color: dimgray;
+
+}

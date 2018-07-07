@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Interactive Map - Leaflet</title>
+
+		<!-- external stylesheet links -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><!--ensures that Lato font is compatible with Safari -->
+		<link rel="stylesheet" href="lib/leaflet.zoomhome.css"/>
+		<link rel="stylesheet" href="lib/leaflet.css">
+		<link rel="stylesheet" href="lib/MarkerCluster.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+
+
+		<div class = "container">
+
+				 <h2 class="portfolio-title">Geography of Housing Prices in California</h2>
+					 <p>
+					This interactive map visualizes a change in median housing prices over the last 9 years for major cities in California. The orange circles represent a yearly change in housing prices for those cities. Use the slider to update years, and hover over individual cities to explore further. The legend shows minimum, maximum, and mean housing prices in the state during the selceted year.
+				 </p>
+					 <p class="" id = "create">
+							Created with: JavaScript, jQuery, Leaflet, and AJAX.
+					 </p><br>
+
+
+		<div id="map"></div>
+
+		<div>
+				<h6 class="portfolio-title">Source: California Association of Realtors</h6>
+		</div>
+
+		<div id="footer">
+		<hr><br>
+				<footer>
+						<p2>&copy Vladimir Sliusar |</p2>
+						<p2>last updated: 2018</p2>
+				</footer>
+		</div>
+
+		</div>
+		<br><br>
+
+		<!--external script links-->
+
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="lib/leaflet.js"></script>
+		<script type="text/javascript" src="lib/leaflet.markercluster-src.js"></script>
+	<!--<script type="text/javascript" src="js/tutorials.js"></script>-->
+	 <!-- <script type="text/javascript" src="js/geojson.js"></script>-->
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="lib/leaflet.zoomhome.js"></script>
+
+
+	</body>
+</html>
