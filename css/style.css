@@ -23,17 +23,26 @@
 }
 
 #forward {
+  display: block;
     float: right;
     border-radius: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #reverse {
+  display: block;
     float: left;
     border-radius: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .skip{
   background-color: white;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .leaflet-popup-content p{
