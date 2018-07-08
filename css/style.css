@@ -9,17 +9,18 @@
 
 .sequence-control-container {
     width: 230px;
-    height: 12px;
+    height: 14px;
     background-color: rgba(255,255,255,1);
     padding: 4px 5px 17px 5px;
     line-height: 35px;
+
     text-align: center;
     border: solid #B6BDBE 1.5px;
     border-radius: 4px;
     margin-top: 13px
 }
 .range-slider {
-    width: 59%;
+    width: 60%;
 }
 
 #forward {
@@ -34,7 +35,7 @@
 
 .skip{
   background-color: white;
-  margin: -0.1em;
+  margin: -0.05em;
 }
 
 .leaflet-popup-content p{
@@ -45,7 +46,7 @@
     width: 200px;
     height: 90px;
     background-color: rgba(255,255,255,1);
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     line-height: 20px;
     text-align: center;
     border: solid #B6BDBE 1.5px;
@@ -106,10 +107,12 @@ h6 {
 
 #year-count{
   /*margin-left: 90px;*/
-  margin-top: 7px;
+  margin-top: 9px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'lato';
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
 }
 
 .leaflet-control-layers.leaflet-control{
@@ -128,7 +131,7 @@ h6 {
 
 
 .circle {
-  transition: stroke-width 0s;
+  transition: stroke-width 0.2s;
 }
 
 .container{
