@@ -9,11 +9,10 @@
 
 .sequence-control-container {
     width: 230px;
-    height: 15px;
+    height: 12px;
     background-color: rgba(255,255,255,1);
     padding: 4px 5px 17px 5px;
     line-height: 35px;
-
     text-align: center;
     border: solid #B6BDBE 1.5px;
     border-radius: 4px;
@@ -35,6 +34,7 @@
 
 .skip{
   background-color: white;
+  margin: -0.1em;
 }
 
 .leaflet-popup-content p{
@@ -97,20 +97,19 @@ h6 {
 .year-control-container {
     width: 0px;
     height: 0px;
-    background-color: rgba(46,46,46,1);
+    /*background-color: rgba(46,46,46,1);
     /*padding: 1px 17px 2px 1px;*/
-
-    line-height: 10px;
-    border: solid #B6BDBE 0px;
-    border-radius: 4px;
+    line-height: 0px;
+    /*border: solid #B6BDBE 0px;
+    border-radius: 4px;*/
 }
 
 #year-count{
+  /*margin-left: 90px;*/
+  margin-top: 7px;
   font-size: 24px;
   font-weight: bold;
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  color: #fff;
+  font-family: 'lato';
 }
 
 .leaflet-control-layers.leaflet-control{
