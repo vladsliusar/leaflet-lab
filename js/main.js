@@ -200,8 +200,8 @@ function createSequenceControls(map, attributes){
               $(container).append('<input class="range-slider" type="range">');
 
               //add skip buttons
-              $('#reverse').html('<i class="fas fa-chevron-left" style="line-height:1.65;"></i>');
-              $('#forward').html('<i class="fas fa-chevron-right" style="line-height:1.65;"></i>');
+              $(container).append('<button class="skip" id="reverse" title="Reverse">Reverse</button>');
+              $(container).append('<button class="skip" id="forward" title="Forward">Forward</button>');
 
                 //prevent map zooming while using the slider buttons
               $(container).on('mousedown dblclick', function(e){
@@ -229,8 +229,8 @@ function createSequenceControls(map, attributes){
         step: 1
     });
     // set skip buttons attributes
-    $('#reverse').html('<img src="img/left.png">');
-    $('#forward').html('<img src="img/right.png">');
+    $('#reverse').html('<i class="fas fa-chevron-left" style="line-height:1.65;"></i>');
+    $('#forward').html('<i class="fas fa-chevron-right" style="line-height:1.65;"></i>');
 
    //click listener for buttons
    $('.skip').click(function(){
