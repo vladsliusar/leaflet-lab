@@ -229,8 +229,8 @@ function createSequenceControls(map, attributes){
         step: 1
     });
     // set skip buttons attributes
-    $('#reverse').html('<i class="fas fa-chevron-left" style="line-height:1.65;"></i>');
-    $('#forward').html('<i class="fas fa-chevron-right" style="line-height:1.65;"></i>');
+    $('#reverse').html('<img src="img/left.png">');
+    $('#forward').html('<img src="img/right.png">');
 
    //click listener for buttons
    $('.skip').click(function(){
