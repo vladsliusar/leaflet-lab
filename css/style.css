@@ -103,11 +103,11 @@ h6 {
 }
 
 .year-control-container {
-    width: 0px;
-    height: 0px;
+    width: 15px;
+    height: 10px;
     /*background-color: rgba(46,46,46,1);
     /*padding: 1px 17px 2px 1px;*/
-    line-height: 0px;
+    line-height: 15px;
     /*border: solid #B6BDBE 0px;
     border-radius: 4px;*/
 }
