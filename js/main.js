@@ -85,7 +85,7 @@ function pointToLayer(feature, latlng, attributes){
     //Step 4: Assign the current attribute based on the first index of the attributes array
     var attribute = attributes[0];
     //check
-    console.log(attribute);
+    //console.log(attribute);
 
     //create marker options
     var options = {
