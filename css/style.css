@@ -85,9 +85,10 @@ p {
 
 h2 {
   text-align: center;
-  font-size: 22px;
-  color: #000;
-  font-family: lato;
+  font-size: 25px;
+  font-weight: 600;
+  color: black; /*#333333*/
+  font-family: Poppins;
 }
 
 h6 {
@@ -146,13 +147,21 @@ h6 {
 
 /*border line*/
 hr {
-  border-color: #EEEEEE;
-  border-width: 1px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  opacity: 0.7;
 }
 
 p2{
-  color: #808080;
+  color: #999999;
   font-family:lato;
+  font-size: 14px;
+}
+/*rights reserved*/
+#footer{
+    margin-top: 80px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 /*rights reserved*/
